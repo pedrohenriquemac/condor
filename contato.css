@@ -1,0 +1,44 @@
+#logo {
+    width: 25%;
+    margin-left: 38%;
+}
+.cabeçalho {
+    background-color: black;
+}
+.cabeçalho h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+.contatos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+ }
+ .contatos li {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-left: 20%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    
+ }
+ .contatos img {
+    width: 25%;
+ }
+ .contatos p {
+    font-size: 22px;
+    font-weight: bold;
+ }
+ .contatos h3 {
+    font-size: 40px;
+    font-weight: bold;
+ }

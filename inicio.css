@@ -1,73 +1,69 @@
-.cabeçalho h1 {
-    background-color: #0463ab;
- 
-  }
-  #logo{
-    width: 25%;
-  }
-  nav {
-     position: absolute;
-     top: 20%;
-     right: 10%;
-  }
-  nav li {
-     display: inline;
-     margin: 0 0 0 20px;
-  }
-  nav a {
-     text-transform: uppercase;
-     color: aliceblue;
-     font-weight: bold;
-     font-size: 22px;
-     text-decoration: none;
-  }
-  .etapa1 {
-     width: 940px;
-     margin: 0 auto;
-     padding: 50px 0;
-  }
-  .etapa1 li {
-     display: inline-block;
-     text-align: center;
-     width: 30%;
-     vertical-align: top;
-     margin: 0 1.5%;
-     padding: 30px 20px;
-     box-sizing: border-box;
-     border-color: black;
-     border-width: 2px;
-     border-style: solid;
-     border-radius: 15px;
-     
-  }
-  .etapa1 h2 {
-     font-size: 30px;
-     font-weight: bold;
-  }
-  #car {
-        margin-top: 30px;
-        margin-right: 40px;
-        width: 100%;
-  }
+/* Reset CSS */
+/* Adicione estilos de reset se necessário */
 
-  .imaje2 { 
-        margin-top: 65px;
-        margin-right: 30px;
-        width: 105%;
-  }
-   .moto{
-    margin-top: 15px;
-    width: 105%;
-  }
-  .lista h3 {
-     text-align: center;
-     font-weight: bold;
-     font-size: 35px;
-     background-color: rgb(255, 25, 25);
-     color: aliceblue;
-  }
-  .marcas img {
-        width: 15%;
-        padding: 30px 20px;
-        margin-left: 0 1.5%;
-  }
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    padding: 20px;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features li {
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.features h2 {
+    margin-bottom: 10px;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+}
